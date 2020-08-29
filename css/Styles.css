@@ -1,0 +1,185 @@
+
+.section-profile {
+    background-color: #3e3e3e;
+    color: #fff;
+    padding-top: 2.5em;
+    padding-bottom: 4em;
+}
+
+@media (max-width: 767px){
+.section-profile {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+}
+
+@media (max-width: 767px){
+.section {
+    margin-bottom: 2em;
+}
+}
+
+@media (max-width: 767px){
+.profile-wrapper .profile-image {
+    display: block;
+    padding: 0 0 1em 0;
+    width: 100%;
+}
+}
+
+@media (max-width: 767px){
+.profile-wrapper {
+    display: block!important;
+    text-align: center;
+}
+}
+
+@media (max-width: 767px){
+.profile-image {
+	display: block!important;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+}
+
+@media (max-width: 767px){
+.contact-wrapper {
+    display: block;
+    text-align: center;
+
+}
+}
+
+
+
+.section {
+    margin-bottom: 4em;
+}
+
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.profile-wrapper {
+    display: table;
+    width: 100%;
+}
+
+body {
+    font-family: 'Lato', 'Avenir Next', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: #fff;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+.profile-wrapper .profile-content {
+    display: table-cell;
+    vertical-align: top;
+
+}
+
+.profile-wrapper {
+    display: table;
+
+}
+
+.nav-link {
+	text-transform: uppercase;
+}
+
+.navbar-brand {
+	font-size: 150%;
+}
+
+#section-work{
+	text-transform: uppercase;	
+	}	
+
+.section-header{
+	text-transform: uppercase;	
+	font-size: 200%;
+	}	
+
+.contact-header {
+    font-size: 250%;
+    font-weight: 250;
+    text-transform: uppercase;
+
+}
+
+.copyright {
+	text-align: center;
+	position: top;
+}
+
+#underline {
+	border-top: 1px solid;
+	color:#7a7a7a;
+}
+
+
+ 
+// Crop images in the coursel
+.carousel-item {
+  img {
+    height: 60vw;
+    object-fit: cover;
+    
+    @media (min-width: $bootstrap-sm) {
+      height: 350px;
+    }
+  }
+}
+
+
+.profile-wrapper .profile-image img {
+    border-radius: 50%;
+    	width: 150px;
+}
+
+.profile-wrapper .profile-image {
+    display: table-cell;
+    vertical-align: top;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    padding-right: 2em;
+    width: 128px;
+}
+
+.w-100 {
+	margin-bottom: 10px;
+}
+
+.social-accounts li a {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 45px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    display: inline-block;
+    text-align: center;
+}
+
+.social-accounts li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 1em;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.social-accounts {
+	padding-inline-start: 0px;
+
+}
+
+
